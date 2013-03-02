@@ -1,0 +1,133 @@
+@base-blue: #1b71b3;
+
+@home: (#1170b6);
+
+@info: (#1b71b3);
+
+@laundry: #ed1c24;
+
+@baby: #00a69b;
+
+@homecare: #00ac5b;
+
+@health: #b1a3cf;
+
+@batteries: #d1985c;
+
+body {
+  color: @base-blue;
+  font-size: 12px;
+}
+
+h2 {
+  color: @base-blue;
+  font-size: 26px;
+}
+
+
+/* Section colours */
+
+.home, li.home a {
+  color: @home !important;
+}
+
+.laundry, li.laundry a {
+  color: @laundry !important;
+}
+
+.baby, li.baby a {
+  color: @baby !important;
+}
+
+.homecare, li.homecare a {
+  color: @homecare !important;
+}
+
+.health, li.health a {
+  color: @health !important;
+}
+
+.batteries, li.batteries a {
+  color:@batteries !important;
+}
+
+.info, li.info {
+  color: @info !important;
+}
+
+/* Navigation padding offsets */
+
+/* horizontal */
+
+@base-indent: 4px;
+
+@base-home-indent: 5.5px;
+
+.xoff0 a {
+}
+
+.xoff1, .xoff1 a {
+  padding-left: @base-indent;
+}
+
+.xoff2, .xoff2 a {
+  padding-left: @base-indent * 2;
+}
+
+.xoff3, .xoff3 a {
+  padding-left: @base-indent * 3;
+}
+
+.xoff4, .xoff4 a {
+  padding-left: @base-indent * 4;
+}
+
+.xoff5, .xoff5 a {
+  padding-left: @base-indent * 5;
+}
+
+.xoff12, .xoff12 a {
+  padding-left: @base-indent * 12;
+}
+
+.xoffmental, .xoffmental a {
+  padding-left: @base-indent * 40;
+}
+
+/* vertical offsets */
+
+.yoff10 {
+  font-size: 90%;
+  vertical-align: super;
+  line-height: 0.5em;
+}
+
+.yoff5 {
+  vertical-align: 10%;
+}
+
+.yoff7 {
+  vertical-align: 20%;
+}
+
+
+#home-page-sidenav .xoff1, #home-page-sidenav .xoff1 a {
+  padding-left: @base-home-indent;
+}
+
+#home-page-sidenav .xoff2, #home-page-sidenav .xoff2 a {
+  padding-left: @base-home-indent * 2;
+}
+
+#home-page-sidenav .xoff3, #home-page-sidenav .xoff3 a {
+  padding-left: @base-home-indent * 3;
+}
+
+#home-page-sidenav .xoff4, #home-page-sidenav .xoff4 a {
+  padding-left: @base-home-indent * 4;
+}
+
+
+
+
+

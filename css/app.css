@@ -1,0 +1,497 @@
+html, body {
+    height: 100%;
+    font-family: 'Helvetica W01 Roman', sans-serif;
+    font-size: 0.85em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Helvetica W01 Bold', sans-serif;
+}
+
+h2 {
+    font-size: 2.6em;
+}
+
+#busyindicator {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+#maincontainer {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 980px;
+    padding: 0;
+    height: 581px;
+    border: 1px solid #fff;
+    background: url("../img/pandg1.fw.opt.590.jpg") no-repeat -6860px 0;
+}
+
+#wrapper {
+    width: 6860px;
+    margin-top: 0;
+    min-height: 601px;
+}
+
+#footer {
+    margin-top: -25px;
+    text-align: left;
+    z-index: 3000;
+    margin-left: auto;
+    margin-right: auto;
+    width:980px;
+    position: relative;
+}
+
+#home-page-sidenav {
+    margin-left: -15px;
+
+}
+
+#home-page-sidenav .nav.sidenav li a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#planogram h1 {
+    text-transform: capitalize;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+}
+
+#planogram .nav-buttons {
+    margin: 20px 0 30px 0;
+}
+
+#planogram h3 {
+    text-transform: capitalize;
+}
+
+#planogram a {
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: normal;
+}
+
+#planogram img.plano-image {
+    margin-top: 20px;
+}
+
+
+
+
+/* navbar */
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.navbar .container {
+    padding: 1px 0 1px 20px;
+}
+
+.navbar-inner {
+    background-color: #fff !important;
+    background-image: none !important;
+    background-repeat: repeat-x !important;
+    border: none;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+}
+
+.navbar-inner h2 {
+    margin-right: 70px;
+}
+
+
+.brand {
+    margin-right: 20px;
+    width: 180px;
+    float: left;
+    clear: none;
+}
+
+
+
+/* arrows */
+
+.nav-arrows {
+    position: relative;
+    top: -145px;
+    left: 20px;
+    width: 940px;
+    z-index: 3000;
+}
+
+.arrow-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.arrow-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+a.active {
+    text-decoration: underline !important;
+}
+
+.view {
+    display: none;
+}
+
+.footer-content {
+    z-index: 5000;
+    margin-left: 15px;
+}
+
+
+
+.content-panel {
+    padding-left: 25px;
+    padding-top: 5px;
+    margin-top: -530px;
+    z-index: 3000;
+}
+
+.content-panel h2 {
+    margin-bottom: 10px;
+}
+
+#subsection-health-planograms h2 {
+    margin-top: 0;
+}
+
+.sidenav-panel {
+    margin-top: 590px;
+    z-index: 3000;
+}
+
+.col1 {
+    padding-left: 20px;
+    width: 470px;
+    min-height: 590px;
+}
+
+.col2 {
+    width: 450px;
+    min-height: 590px;
+}
+
+
+
+
+
+/* Navigation styles */
+
+.nav.mainnav ul {
+    margin-left: 6px;
+}
+
+.nav.mainnav li {
+    margin-top: 12px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+.nav li a {
+    text-transform: uppercase;
+}
+
+.nav li.active a {
+    text-decoration: underline !important;
+}
+
+.nav li a:hover {
+    text-decoration: underline !important;
+}
+
+.nav.sidenav > li > a:hover {
+    background-color: transparent;
+}
+
+.nav.sidenav li img {
+    margin-right: 8px;
+}
+
+.nav.sidenav li a {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sidenav {
+    margin-top: 140px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+.nav.sidenav li a {
+    text-transform: none;
+    height: 55px;
+}
+
+.sidenav-panel .nav.sidenav li a {
+    height: 30px;
+}
+
+
+
+.side-nav-label {
+    margin-top: 4px;
+}
+
+.home-side-nav-label {
+    margin-top: 16px;
+    margin-left: -6px;
+}
+
+
+/* Text styles  */
+
+.standout {
+    font-size: 150%;
+}
+
+.standout-smaller {
+    font-size: 125%;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+
+
+/* slider items */
+
+.slideritem {
+    float:left;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+}
+
+.slider-background-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 980px;
+    height: 610px;
+    margin: 0;
+    padding: 0;
+    background: url('../img/stripez1.png') no-repeat 0px 0px;
+    z-index: 1000;
+}
+
+.slider-background-sidenav {
+    position: absolute;
+    top: 0;
+    width: 980px;
+    height: 610px;
+    margin: 0;
+    padding: 0;
+    background: url('../img/stripez2.png') no-repeat 0px 0px;
+    z-index: 500;
+}
+
+
+
+.mainsection {
+     height: 601px;
+     margin-left: 0;
+     margin-right: 0;
+     position: relative;
+     z-index: 3000;
+ }
+
+#subsection-home.subsection {
+    margin-top: 0;
+    padding: 25px;
+}
+.subsection {
+    margin-top: -15px;
+    padding-top: 0;
+    display: none;
+}
+
+.subsection li {
+    list-style-type: none;
+    background: url('../img/sprite.png') no-repeat 0 -1937px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+}
+
+.image-box {
+    float: left;
+    clear: right;
+    padding: 2px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+    border: 1px solid #e1e1e8;
+    background-color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.image-box .caption {
+    text-transform: capitalize;
+}
+
+.heading-image {
+    position: relative;
+    z-index: -10;
+    top: 20px;
+    left: -40px;
+    opacity: 0.10;
+    height: 110px;
+    width: 110px;
+    margin-bottom: -80px;
+}
+
+
+
+/* image sprite */
+
+.sprite { background-image: url(../img/sprite.png); }
+
+.sprite.sprite-arrow-left-baby{ background-position: 0 0; width: 95px; height: 99px; }
+.sprite.sprite-arrow-left-batteries{ background-position: 0 -149px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-left-health{ background-position: 0 -298px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-left-home{ background-position: 0 -447px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-left-homecare{ background-position: 0 -596px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-left-laundry{ background-position: 0 -745px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-null{ background-position: 0 -894px; width: 94px; height: 99px; }
+.sprite.sprite-arrow-right-baby{ background-position: 0 -1043px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-right-batteries{ background-position: 0 -1192px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-right-health{ background-position: 0 -1341px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-right-homecare{ background-position: 0 -1490px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-right-info{ background-position: 0 -1639px; width: 95px; height: 99px; }
+.sprite.sprite-arrow-right-laundry{ background-position: 0 -1788px; width: 95px; height: 99px; }
+
+.sprite.sprite-bullet-arrow{ background-position: 0 -1937px; width: 19px; height: 20px; }
+
+.sprite.sprite-home_baby{ background-position: -145px 0; width: 57px; height: 57px; }
+.sprite.sprite-home_baby_a{ background-position: -145px -107px; width: 110px; height: 110px; }
+.sprite.sprite-home_batteries{ background-position: -145px -267px; width: 57px; height: 57px; }
+.sprite.sprite-home_batteries_a{ background-position: -145px -374px; width: 110px; height: 110px; }
+.sprite.sprite-home_health{ background-position: -145px -534px; width: 57px; height: 57px; }
+.sprite.sprite-home_health_a{ background-position: -145px -641px; width: 110px; height: 110px; }
+.sprite.sprite-homehomecare{ background-position: -145px -801px; width: 57px; height: 57px; }
+.sprite.sprite-home_home_a{ background-position: -145px -801px; width: 57px; height: 57px; }
+.sprite.sprite-home_homecare{ background-position: -145px -908px; width: 57px; height: 57px; }
+.sprite.sprite-home_homecare_a{ background-position: -145px -1015px; width: 110px; height: 110px; }
+.sprite.sprite-home_info{ background-position: -145px -1175px; width: 94px; height: 99px; }
+.sprite.sprite-home_info_a{ background-position: -145px -801px; width: 110px; height: 100px; }
+.sprite.sprite-home_laundry{ background-position: -145px -1324px; width: 57px; height: 57px; }
+.sprite.sprite-home_laundry_a{ background-position: -145px -1431px; width: 110px; height: 110px; }
+
+.sprite.sprite-home_sub_1{ background-position: -145px -1591px; width: 140px; height: 140px; }
+.sprite.sprite-home_sub_2{ background-position: -145px -1781px; width: 140px; height: 120px; }
+.sprite.sprite-home_sub_3{ background-position: -335px 0; width: 140px; height: 125px; }
+.sprite.sprite-home_sub_4{ background-position: -335px -190px; width: 110px; height: 110px; }
+
+.sprite.sprite-pdficon_large{ background-position: -335px -380px; width: 32px; height: 32px; }
+.sprite.sprite-pdficon_small{ background-position: -335px -462px; width: 16px; height: 16px; }
+
+.sprite.sprite-side_nav_icon_1{ background-position: -335px -528px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_2{ background-position: -335px -600px; width: 30px; height: 24px; }
+.sprite.sprite-side_nav_icon_3{ background-position: -335px -674px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_4{ background-position: -335px -748px; width: 30px; height: 24px; }
+
+.sprite.sprite-side_nav_icon_baby{ background-position: -335px -822px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_batteries{ background-position: -335px -902px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_health{ background-position: -335px -982px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_homecare{ background-position: -335px -1062px; width: 30px; height: 30px; }
+.sprite.sprite-side_nav_icon_laundry{ background-position: -335px -1142px; width: 30px; height: 30px; }
+
+
+
+
+
+@media only screen and (device-width:768px) and (orientation:portrait) {
+    /*iPad Portrait orientation styles */
+}
+
+@media only screen and (device-width:768px) and (orientation:landscape) {
+    /*iPad landscape orientation styles */
+}
+
+@media only screen {
+    h2 {
+        font-size: 2.4em;
+    }
+}
+
+@media only screen and (orientation:portrait) {
+}
+
+@media only screen and (orientation:landscape){
+}
+
+
+
+
+
+
+#tooltip {
+    text-align: center;
+    color: #fff;
+    background: #111;
+    position: absolute;
+    z-index: 100;
+    padding: 15px;
+    margin-top: 140px;
+}
+
+#tooltip:after {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #111;
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    margin-left: -10px;
+}
+
+#tooltip.top:after {
+    border-top-color: transparent;
+    border-bottom: 10px solid #111;
+    top: -20px;
+    bottom: auto;
+}
+
+#tooltip.left:after {
+    left: 10px;
+    margin: 0;
+}
+
+#tooltip.right:after {
+    right: 10px;
+    left: auto;
+    margin: 0;
+}
+
+.shelf {float: left; clear: none; margin: 0; padding: 0;}
+
+
+.plano-image-container {
+    width: 900px;
+}
+
+
+
